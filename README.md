@@ -119,3 +119,19 @@
 ## html 表格
 
 可参考[教程](https://www.runoob.com/html/html-tables.html)  
+
+## html 列表
+
+html 支持有序列表和无序列表。
+
+- **无序列表：用的最多的**(在很多页面的菜单栏都是用无序列表写的)
+
+```html
+<ul>
+    <li></li>
+    <li></li>
+</ul>
+```
+
+- 有序列表 `<ol></ol>`  
+
