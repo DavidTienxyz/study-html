@@ -135,3 +135,95 @@ html 支持有序列表和无序列表。
 
 - 有序列表 `<ol></ol>`  
 
+---
+
+## html 区块
+
+html 可以通过 `<div> 和 <span>` 将元素组合起来。  
+
+### 区块元素
+
+大多数 html 元素被定义为 **块级元素**或**内联元素**。  
+块级元素在浏览器显示时，通常会以新行来开始（和结束）。  
+实例：`<h1>, <p>, <ul>, <table>`  
+
+### 内联元素
+
+内联元素在显示时通常不会以新行开始。  
+实例：`<b>, <td>, <a>, <img>`
+
+---
+
+`<div>` 是块级元素，用于组合其他元素的容器。  
+`<div>` 元素没有特定含义。此外，由于它属于块级元素，浏览器会在其前后显示折行。  
+如果与 CSS 一同使用，`<div>` 元素可用于对大的内容块设置样式属性。  
+`<div>` 元素的另一个常见的用途是文档布局。它取代了试用表格定义布局的老式方法。使用 table 元素进行文档布局不是表格的正确用法。 table 元素的作用是显示表格化的数据。  
+
+---
+
+`<span>` 元素时内联元素，可用作文本的容器  
+`<span>` 元素也没有特定的含义。  
+当与 CSS 一同使用时， `<span>` 元素可用于为部分文档设置样式属性。  
+
+---
+
+## html 表单和输入
+
+html 表单用于收集不通类型的用户输入。  
+
+```html
+<form>
+    input 元素
+</form>
+```
+
+### input 元素的多重类型属性（type）
+
+多数情况下被用到的表单标签是输入标签`<input>`。  
+输入类型是由类型属性（type）定义的。
+
+- `<input type="text">` 文本域（text Fields）（默认20个字符）
+- `<input type="password" name="pwd">` 字符会以星号或原点显示。  
+- `<input type="radio" name="sex" value="male">` 单选按钮（Radio Buttons）
+- `<input type="checkbox" name="veicle" value="Bike">` 复选框（Checkboxes）
+- `<input type="submit" value="Submit">` 提交按钮（Submit Button） 当用户单机确认按钮时，表单的内容会被传送到另一个文件。表单的动作属性定义了目的文件的文件名。由动作属性定义的这个文件通常会对接到的输入数据进行相关的处理。
+
+更多[参考](https://www.runoob.com/html/html-forms.html)  
+
+---
+
+## iframe 框架
+
+`<iframe src="URL" width="200" height="200"  frameborder="0"></iframe>` url、宽、高、边框  
+
+```html
+<iframe src="demo_iframe.htm" name="iframe_a"></iframe>
+<p><a href="http://www.runoob.com" target="iframe_a">RUNOOB.COM</a></p>
+```
+
+显示一个目标链接的页面
+
+## 颜色（RGB）
+
+html 颜色由一个十六进制符号来定义，这个符号由红、绿、蓝的值组成（RGB）。  
+每种颜色的最小值是0（十六进制：#00），最大值255（十六进制：#FF）  
+单一颜色的两个值相同时，可以简写。（#FF4400可简写为#F40）
+
+---
+
+## html 字符实体
+
+html中的预留字符必须被替换为字符实体。  
+一些在键盘上找不多的字符也可以使用字符实体来替代。  
+
+**格式：& 开始  ; 结束，如：`&lt;`就是<**  
+
+[常用速查](https://www.runoob.com/html/html-entities.html)  
+
+---
+
+## url
+
+统一资源定位器(Uniform Resource Locators)
+
+[速查](https://www.runoob.com/html/html-url.html)  
