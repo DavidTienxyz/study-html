@@ -2,7 +2,7 @@
 
 超文本标记语言（HyperText Markup language, 简称 HTML）是一种用于创建网页的标准标记语言。
 
-> 对于中文网页需要使用<meta charset='utf-8'>声明编码，否则会出现乱码。有些浏览器会设置 GBK 为默认编码，则需要设置为<meta charset='gbk'>
+> 对于中文网页需要使用`<meta charset='utf-8'>`声明编码，否则会出现乱码。有些浏览器会设置 GBK 为默认编码，则需要设置为`<meta charset='gbk'>`
 
 ---
 
